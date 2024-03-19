@@ -4,7 +4,7 @@ var num2 = prompt("Enter second number: ");
 num1 = parseInt(num1, 10);
 num2 = parseInt(num2, 10);
 
-var sum, sub, mul, div;
+var sum, sub, mul, div, mod;
 
 sum = num1 + num2;
 document.write("Addition =" + sum + "<br/>")
@@ -17,3 +17,6 @@ document.write("multiplication =" + mul + "<br/>")
 
 div = num1 / num2;
 document.write("division =" + div + "<br/>")
+
+mod = num1 % num2;
+document.write("modulation =" + mod + "<br/>")
